@@ -6,7 +6,7 @@ function updateClock(){
     const meridiem=hours >= 12 ? "PM":"AM"
     const minutes=now.getMinutes();
     const secondes=now.getSeconds();
-    const timeString=`${hours}:${minutes}:${secondes}:${meridiem}`;
+    const timeString=`${hours}:${minutes}:${secondes} ${meridiem}`;
 
 
     document.querySelector(".clock").textContent=timeString;
