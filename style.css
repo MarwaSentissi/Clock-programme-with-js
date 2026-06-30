@@ -1,0 +1,27 @@
+
+body{
+    margin: 0;
+}
+.clock_container{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/new-york-city-twilight-evening-city-lights-dark-night-pink-2880x1800-6089.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid;
+    height:100vh;
+
+}
+.clock{
+
+    font-family: monospace;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter:blur(4px);
+    width:100%
+
+}
